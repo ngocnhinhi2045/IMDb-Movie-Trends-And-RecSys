@@ -13,6 +13,9 @@ Dự án này tập trung phân tích xu hướng điện ảnh giai đoạn 202
 * Đặng Ngọc Nhi
 * *Đơn vị:* Khoa Thương mại điện tử, Trường Đại học Kinh tế - Đại học Đà Nẵng (DUE).
 
+## WorkFlow của dự án 
+<img width="1901" height="1078" alt="Screenshot 2026-05-12 115952" src="https://github.com/user-attachments/assets/8913c11f-e420-4ad7-8b44-a50887489408" />
+
 ## 🎯 Các tính năng nổi bật
 * **Phân tích thị trường (Data Analytics):** Xây dựng 5 dashboard trực quan hóa dữ liệu theo thời gian, thể loại, quốc gia, đạo diễn và diễn viên.
 * **Hệ thống gợi ý phim (Recommender System):** Ứng dụng mô hình ngôn ngữ lớn SBERT để xử lý ngữ nghĩa phần tóm tắt phim. Sử dụng thuật toán KNN và độ đo Cosine Similarity để truy xuất phim tương đồng.
