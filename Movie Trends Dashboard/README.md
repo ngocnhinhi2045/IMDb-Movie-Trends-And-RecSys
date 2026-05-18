@@ -6,7 +6,7 @@ Một dashboard tương tác được thiết kế để phân tích xu hướng
 
 🔗 [Xem Dashboard tương tác trực tiếp tại đây](https://public.tableau.com/app/profile/ng.c.nhi.ng/viz/TranLeDiemMy_DangNgocNhi/Story1) 
 
-![Dashboard Preview]([<img src="assets/01_overview_dashboard.png" width="800">](https://github.com/ngocnhinhi2045/IMDb-Movie-Trends-And-RecSys/blob/main/assets/01_overview_dashboard.png))
+![Dashboard Preview](https://github.com/ngocnhinhi2045/IMDb-Movie-Trends-And-RecSys/blob/main/assets/01_overview_dashboard.png)
 
 ## 📊 Key Features
 
