@@ -55,6 +55,7 @@ Top 10 phim gợi ý:
 6. Luther: The Fallen Sun
 7. Common Creed: Trafficking
 ...
+```
 
 ## 📂 Cấu trúc thư mục (Repository Structure)
 ├── data/
