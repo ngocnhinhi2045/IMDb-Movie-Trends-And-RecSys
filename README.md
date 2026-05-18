@@ -8,6 +8,11 @@
 ## 📌 Giới thiệu dự án
 Dự án này tập trung phân tích xu hướng điện ảnh giai đoạn 2020-2025 dựa trên bộ dữ liệu hơn 63.000 bản ghi từ nền tảng IMDb. Dự án được triển khai nhằm giải quyết hai bài toán chính: trực quan hóa thị trường điện ảnh và xây dựng hệ thống gợi ý phim (Content-Based Filtering).
 
+**Thành viên thực hiện - Nhóm 3:**
+* Trần Lê Diễm My
+* Đặng Ngọc Nhi
+* *Đơn vị:* Khoa Thương mại điện tử, Trường Đại học Kinh tế - Đại học Đà Nẵng (DUE).
+  
 ## WorkFlow của dự án 
 <img width="1901" height="1078" alt="Screenshot 2026-05-12 115952" src="https://github.com/user-attachments/assets/8913c11f-e420-4ad7-8b44-a50887489408" />
 
