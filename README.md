@@ -56,9 +56,7 @@ Top 10 phim gợi ý:
 7. Common Creed: Trafficking
 ...
 
-
 ## 📂 Cấu trúc thư mục (Repository Structure)
-```text
 ├── data/
 │   ├── raw/                 # Dữ liệu cào từ IMDb ban đầu
 │   └── processed/           # Dữ liệu sau khi làm sạch 
@@ -73,4 +71,3 @@ Top 10 phim gợi ý:
 │   └── ...                  # Hình ảnh minh họa cho README
 ├── requirements.txt
 └── README.md
-
