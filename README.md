@@ -24,6 +24,26 @@ Dự án này tập trung phân tích xu hướng điện ảnh giai đoạn 202
 * **Machine Learning:** Scikit-learn, Sentence-Transformers (SBERT).
 * **Triển khai:** Streamlit.
 
+## 🗂️ Mô tả bộ dữ liệu (Dataset Overview)
+Bộ dữ liệu sử dụng trong dự án được thu thập từ IMDb, bao gồm 14 trường thông tin chính. Dưới đây là từ điển dữ liệu (Data Dictionary) sau khi đã được mô tả ngắn gọn:
+
+| STT | Tên cột | Kiểu dữ liệu | Mô tả |
+|:---:|---|:---:|---|
+| 1 | **ID** | String | Mã định danh duy nhất của mỗi bộ phim. |
+| 2 | **Movie_Title** | String | Tên bộ phim (định danh cơ bản dùng cho tìm kiếm và dashboard). |
+| 3 | **Link** | String | Đường dẫn URL đến trang gốc của phim trên IMDb. |
+| 4 | **Released_Date** | String | Ngày phát hành (dữ liệu thô có thể chứa cả thông tin quốc gia). |
+| 5 | **Released_Year** | Integer | Năm phát hành phim (dùng để phân tích xu hướng theo thời gian). |
+| 6 | **Countries_of_origin** | String | Quốc gia sản xuất/gốc của phim (ngăn cách bởi dấu `\|`). |
+| 7 | **Genre** | String | Thể loại phim (ngăn cách bởi dấu `\|`). |
+| 8 | **Runtime** | String | Thời lượng phim ở định dạng chuỗi văn bản (VD: 1h 54m). |
+| 9 | **IMDB_Rating** | Float | Điểm số đánh giá trung bình trên IMDb (thang điểm 0–10). |
+| 10 | **No_of_votes** | String | Số lượt đánh giá (chứa các ký hiệu rút gọn như K, M). |
+| 11 | **Director** | String | Danh sách đạo diễn (ngăn cách bởi dấu `\|`). |
+| 12 | **Stars** | String | Danh sách các diễn viên chính (ngăn cách bởi dấu `\|`). |
+| 13 | **Gross** | String | Doanh thu phim dưới dạng chuỗi tiền tệ (VD: $9,458,590). |
+| 14 | **Overview** | String | Tóm tắt nội dung phim. Đây là trường văn bản quan trọng dùng làm đầu vào cho mô hình SBERT. |
+
 ## 📊 1. Trực quan hóa dữ liệu (Dashboards)
 Dự án cung cấp cái nhìn toàn cảnh và chi tiết về thị trường phim thông qua các phân tích về quy mô, doanh thu, điểm đánh giá và cơ cấu thể loại.
 
