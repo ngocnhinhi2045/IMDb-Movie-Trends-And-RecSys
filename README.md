@@ -58,6 +58,7 @@ Top 10 phim gợi ý:
 ```
 
 ## 📂 Cấu trúc thư mục (Repository Structure)
+```text
 ├── data/
 │   ├── raw/                 # Dữ liệu cào từ IMDb ban đầu
 │   └── processed/           # Dữ liệu sau khi làm sạch 
